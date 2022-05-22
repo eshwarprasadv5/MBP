@@ -22,7 +22,7 @@ pipeline{
             deleteDir()
         }
         success{
-            echo "success"
+            echo "successfull"
         }
         failure{
             echo "Failed"
