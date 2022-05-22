@@ -8,7 +8,7 @@ pipeline{
     stages{
         stage('CheckOut'){
             steps{
-                checkout SCM
+                git 'https://github.com/eshwarprasadv5/MBP.git'
             }
         }
         stage('Build'){
