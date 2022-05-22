@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        label 'maven1'
+        label 'maven2'
     }
     tools{
         maven 'maven354'
